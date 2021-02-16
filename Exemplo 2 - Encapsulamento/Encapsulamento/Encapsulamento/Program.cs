@@ -10,11 +10,11 @@ namespace Encapsulamento
 
         // Metodo get e set é utilizado para encapsular os dados da classe
         // get busca valor de algum apontamento
-        // set atribui valo a um apontamento
+        // set atribui valor a um apontamento
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
 
-        // Esta propriedade expoem o dado ja trabalhando pelo polimorfismo
+        // Esta propriedade expõe o dado ja trabalhando pelo polimorfismo
         public bool MaiorDeIdade { get => _maiorDeIdade; }
 
         // Quando receber a idade por meio de encapsulamento a propriedade Maior de Idade
